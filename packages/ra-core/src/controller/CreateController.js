@@ -58,8 +58,8 @@ class CreateController extends Component {
 
     defaultRedirectRoute() {
         const { hasShow, hasEdit } = this.props;
-        if (hasEdit) return 'edit';
-        if (hasShow) return 'show';
+        // if (hasEdit) return 'edit';
+        // if (hasShow) return 'show';
         return 'list';
     }
 
